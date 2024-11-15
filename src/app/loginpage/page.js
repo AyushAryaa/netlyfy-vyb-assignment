@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 import logoimage from './img/logo.png';
 import searchIcon from './img/searchicon.png';
@@ -10,14 +11,14 @@ export default function LoginPage(){
     return(
         <div className='main-container mx-30 '>
           <header className='header-section w-[1070px] mx-auto flex flex-row justify-around mt-5 h-20  font items-center'>
-            <a href='/'>
+            <Link href='/'>
               <Image
                 alt='logo of company'
                 className='logo-area '
                 width={65}
                 src={logoimage}
               />
-            </a>
+            </Link>
 
             <div className='search-area flex flex-row w-1/4 h-11 bg-white rounded-full items-center '>
               <button>
@@ -25,6 +26,7 @@ export default function LoginPage(){
                   className='search-icon p-1 ml-5'
                   width={30}          
                   src={searchIcon}
+                  alt='fill'
                 />
               </button>
               <div>
@@ -32,6 +34,7 @@ export default function LoginPage(){
                   className='input-area w-48  border-white text-black'
                   type='text'
                   placeholder='Search Creator/Product'
+                  alt='fill'
                 />
               </div>
             </div>
@@ -55,13 +58,14 @@ export default function LoginPage(){
 
             <button className='user-button-area rounded-xl bg-white flex flex-row my-2 h-9 w-20 justify-around items-center'>
               <Image
-              alt='user Icon'
+                alt='user Icon'
                 width={12}
                 src={userIcon}
               />
               <Image
                 width={12}
                 src={dropDownIcon}
+                alt='fill'
               />
             </button>
           </header>

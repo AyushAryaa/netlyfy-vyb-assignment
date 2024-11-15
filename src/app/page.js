@@ -1,4 +1,4 @@
-
+import Link from 'next/link';
 import Image from 'next/image';
 import logoimage from './stock pictures/logo.png';
 import userIcon from './stock pictures/user.png';
@@ -32,14 +32,14 @@ export default function Home() {
     <div className='main-container mx-30 '>
 
       <header className='header-section w-[1070px] mx-auto flex flex-row justify-around mt-5 h-20  font items-center'>
-        <a href='/'>
+        <Link href='/'>
           <Image
             alt='logo of company'
             className='logo-area '
             width={65}
             src={logoimage}
           />
-        </a>
+        </Link>
         
 
        <div className='search-area flex flex-row w-1/4 h-11 bg-white rounded-full items-center '>
@@ -48,6 +48,7 @@ export default function Home() {
               className='search-icon p-1 ml-5'
               width={30}          
               src={searchIcon}
+              alt='fill'
             />
           </button>
           <div>
@@ -88,6 +89,7 @@ export default function Home() {
           <Image
             width={12}
             src={dropDownIcon}
+            alt='fill'
           />
           </a>
         </button>
@@ -468,7 +470,7 @@ export default function Home() {
               <h1 className='text-black font-bold py-2 px-4'>How much does it cost to set up a store?</h1>
               <Image
                 src={plus}
-                alt=''
+                alt='fill'
                 className='question-img'
                 
               />
@@ -477,7 +479,7 @@ export default function Home() {
               <h1 className='text-black font-bold py-2 px-4'>What kind of digital products can I sell?</h1>
               <Image
                 src={plus}
-                alt=''
+                alt='fill'
                 className='question-img'
 
               />
@@ -488,7 +490,7 @@ export default function Home() {
                   <h1 className='text-black font-bold py-2 px-4'>Do I need technical skills to use the platform?</h1>
                   <Image
                     src={mines}
-                    alt=''
+                    alt='fill'
                     className='question-img'
 
                   />
@@ -505,7 +507,7 @@ export default function Home() {
               <h1 className='text-black font-bold py-2 px-4'>Is there a limit to the number of products I can list?</h1>
               <Image
                 src={plus}
-                alt=''
+                alt='fill'
                 className='question-img'
 
               />
@@ -514,7 +516,7 @@ export default function Home() {
               <h1 className='text-black font-bold py-2 px-4'>How do I receive payments for my sales?</h1>
               <Image
                 src={plus}
-                alt=''
+                alt='fill'
                 className='question-img'
 
               />
@@ -523,7 +525,7 @@ export default function Home() {
               <h1 className='text-black font-bold py-2 px-4'>Can I sell internationally on this marketplace?</h1>
               <Image
                 src={plus}
-                alt=''
+                alt='fill'
                 className='question-img'
 
               />
@@ -532,7 +534,7 @@ export default function Home() {
               <h1 className='text-black  font-bold py-2 px-4'>What support and resources are available for sellers?</h1>
               <Image
                 src={plus}
-                alt=''
+                alt='fill'
                 className='question-img'
 
               />
@@ -541,7 +543,7 @@ export default function Home() {
               <h1 className='text-black font-bold py-2 px-4'>Is there a review process for uploaded products?</h1>
               <Image
                 src={plus}
-                alt=''
+                alt='fill'
                 className='question-img'
               />
             </div>
