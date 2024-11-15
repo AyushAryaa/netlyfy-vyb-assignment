@@ -32,10 +32,10 @@ export default function Home() {
     <div className='main-container mx-30 '>
 
       <header className='header-section w-[1070px] mx-auto flex flex-row justify-around mt-5 h-20  font items-center'>
-        <Link href='/'>
+        <Link href=''>
           <Image
             alt='logo of company'
-            className='logo-area '
+            className='logo-area'
             width={65}
             src={logoimage}
           />
@@ -78,7 +78,7 @@ export default function Home() {
         </button>
 
         <button className='user-button-area rounded-xl bg-white  my-2 h-9 w-20 '>
-          <a
+          <Link
             href='/loginpage'
             className='flex flex-row justify-around items-center'>
           <Image
@@ -91,7 +91,7 @@ export default function Home() {
             src={dropDownIcon}
             alt='fill'
           />
-          </a>
+          </Link>
         </button>
       </header>
 
@@ -111,10 +111,10 @@ export default function Home() {
             </div>
             <div>
               <h2 className='text-3xl mt-8'>
-                "Unleash Your Influence: sell<br></br>
+                Unleash Your Influence sell<br></br>
                 Itineraries, Build Your Brand,<br></br>
                 Create Merch, ans Share<br></br>
-                Content - All in One Hub."
+                Content, All in One Hub.
               </h2>
             </div>
             <div className='flex flex-row mt-10'>
@@ -290,7 +290,7 @@ export default function Home() {
         <div className='page-four-creation w-full flex flex-row justify-between'>
           <div className='four-heading'>
             <h1 id='p2' className='text-2xl w-80 text-center font-extrabold ml-6 mt-72'>
-              From Creation to Monetization: Vyb Store Has It All
+              From Creation to Monetization Vyb Store Has It All
             </h1>
           </div>
           <div className='page-four-Card gap-5'>
@@ -375,15 +375,15 @@ export default function Home() {
       <section className='page-six my-7 w-[1070px] mx-auto'>
         <div>
           <div>
-            <h1 id='p2' className='font-bold my-5 text-center text-2xl'>How to get Started?</h1>
+            <h1 id='p2' className='font-bold my-5 text-center text-2xl'>How to get Started</h1>
           </div>
           <div className='card-w-area'>
             <div id='p3' className='card-section flex flex-row rounded-3xl py-10 px-24 gap-10 mb-10'>
                 <div className='card-section-heading mt-12  '>
-                  <h1 className='text-2xl mb-5 font-bold'>Sign Up and create your own store hassle-free</h1>
+                  <h1 className='text-2xl mb-5 font-bold'>Sign Up and create your own store hassle free</h1>
                   <p className='text-lg'>Join us via google signin and verify your 
                     influencer status by entering your social media id
-                    and unlock your store @ zero cost.
+                    and unlock your store zero cost.
                   </p>
                 </div>
                 <div>
@@ -399,11 +399,11 @@ export default function Home() {
             <div id='p1' className='card-section flex flex-row rounded-3xl py-10 px-24 gap-10 mb-10 rotate-3'>
                 <div className='card-section-heading mt-12  '>
                   <h1 className='text-2xl mb-5 font-bold'>
-                    "Monetize your influencer status:Earn money adding real value to your true folowers!"
+                    Monetize your influencer status, Earn money adding real value to your true folowers
 
                   </h1>
                   <p className='text-lg'>
-                    Let VYB thw money now !! its here and withdraw it periodically.
+                    Let VYB thw money now. Its here and withdraw it periodically.
                   </p>
                 </div>
                 <div>
@@ -423,8 +423,8 @@ export default function Home() {
                     links into content.
                   </h1>
                   <p className='text-lg'>
-                    After setting up your product, its's time to go public.Put you store link in insta bio
-                    and lets amke first post together!
+                    After setting up your product, it is time to go public.Put you store link in insta bio
+                    and lets amke first post together.
                   </p>
                 </div>
                 <div>
@@ -462,12 +462,12 @@ export default function Home() {
         <div className='page-rotate flex flex-row justify-between'>
           <div className='page-seven-heading'>
             <h1 id='p2' className='text-3xl font-bold'>FREQUENTLY ASKED QUESTION</h1>
-            <h3>Quick answers to questions you may have, Can't find what you're looking for?</h3>
+            <h3>Quick answers to questions you may have, Cannot find what you were looking for</h3>
             <p>Check out our full documentation</p>
           </div>
           <div>
             <div className='flex flex-row justify-between bg-white rounded-xl mb-5'>
-              <h1 className='text-black font-bold py-2 px-4'>How much does it cost to set up a store?</h1>
+              <h1 className='text-black font-bold py-2 px-4'>How much does it cost to set up a store</h1>
               <Image
                 src={plus}
                 alt='fill'
@@ -476,7 +476,7 @@ export default function Home() {
               />
             </div>
             <div className='flex flex-row justify-between bg-white rounded-xl mb-5'>
-              <h1 className='text-black font-bold py-2 px-4'>What kind of digital products can I sell?</h1>
+              <h1 className='text-black font-bold py-2 px-4'>What kind of digital products can I sell</h1>
               <Image
                 src={plus}
                 alt='fill'
@@ -487,7 +487,7 @@ export default function Home() {
             <div className='mb-5'>
               <div className='bg-white rounded-xl'>  
                 <div className='flex flex-row justify-between'>
-                  <h1 className='text-black font-bold py-2 px-4'>Do I need technical skills to use the platform?</h1>
+                  <h1 className='text-black font-bold py-2 px-4'>Do I need technical skills to use the platform</h1>
                   <Image
                     src={mines}
                     alt='fill'
@@ -499,12 +499,12 @@ export default function Home() {
                 <p className='text-black py-2 px-4'>
                     No. not at all! Our platform is designed with user-friendliness in mind. 
                     You can easily navigate and set up your store without any technical expertise. 
-                    It's as simple as a few clicks to get started!
+                    It is as simple as a few clicks to get started
                   </p>
               </div>  
             </div>
             <div className='flex flex-row justify-between bg-white rounded-xl mb-5'>
-              <h1 className='text-black font-bold py-2 px-4'>Is there a limit to the number of products I can list?</h1>
+              <h1 className='text-black font-bold py-2 px-4'>Is there a limit to the number of products I can list</h1>
               <Image
                 src={plus}
                 alt='fill'
@@ -513,7 +513,7 @@ export default function Home() {
               />
             </div>
             <div className='flex flex-row justify-between bg-white rounded-xl mb-5'>
-              <h1 className='text-black font-bold py-2 px-4'>How do I receive payments for my sales?</h1>
+              <h1 className='text-black font-bold py-2 px-4'>How do I receive payments for my sales</h1>
               <Image
                 src={plus}
                 alt='fill'
@@ -522,7 +522,7 @@ export default function Home() {
               />
             </div>
             <div className='flex flex-row justify-between bg-white rounded-xl mb-5'>
-              <h1 className='text-black font-bold py-2 px-4'>Can I sell internationally on this marketplace?</h1>
+              <h1 className='text-black font-bold py-2 px-4'>Can I sell internationally on this marketplace</h1>
               <Image
                 src={plus}
                 alt='fill'
@@ -531,7 +531,7 @@ export default function Home() {
               />
             </div>
             <div className='flex flex-row justify-between bg-white rounded-xl mb-5'>
-              <h1 className='text-black  font-bold py-2 px-4'>What support and resources are available for sellers?</h1>
+              <h1 className='text-black  font-bold py-2 px-4'>What support and resources are available for sellers</h1>
               <Image
                 src={plus}
                 alt='fill'
@@ -540,7 +540,7 @@ export default function Home() {
               />
             </div>
             <div className='flex flex-row justify-between bg-white rounded-xl mb-5'>
-              <h1 className='text-black font-bold py-2 px-4'>Is there a review process for uploaded products?</h1>
+              <h1 className='text-black font-bold py-2 px-4'>Is there a review process for uploaded products</h1>
               <Image
                 src={plus}
                 alt='fill'

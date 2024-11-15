@@ -4,8 +4,8 @@ import logoimage from './img/logo.png';
 import searchIcon from './img/searchicon.png';
 import userIcon from './img/user.png';
 import dropDownIcon from './img/drop.png';
-// import {FcGoogle} from "react-icon/fc";
-// import img1 from './img/1.png';
+
+
 import img2 from './img/2.png';
 export default function LoginPage(){
     return(
@@ -40,7 +40,7 @@ export default function LoginPage(){
             </div>
         
 
-            <button className='text-xl font-bold'>
+            <button className='text-xl font-bold'>verce
               <h1>Fav Creators</h1>
             </button>
 
@@ -124,7 +124,7 @@ export default function LoginPage(){
                   </form>
 
                   <p className="mt-6 text-center text-gray-400">
-                    Don’t have an account?{" "}
+                    Do not have an account{" "}
                     <a href="/register" className="text-green-400 hover:underline">
                       Get Started
                     </a>
